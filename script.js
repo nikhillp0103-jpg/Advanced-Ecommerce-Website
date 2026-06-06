@@ -1,6 +1,6 @@
 let cart = 0;
 
-function addCart() {
+function add() {
   cart++;
   document.getElementById("cart").innerText = cart;
 }
